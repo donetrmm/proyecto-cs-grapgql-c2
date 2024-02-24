@@ -1,5 +1,5 @@
 - ENTIDADES
-    + PROMOCIONES:
+    + PROMOCIONES: EUGENIO
         * ID
         * DESCRIPCION
         > QUERIES
@@ -7,7 +7,7 @@
         > MUTATIONS
             * CREATE
             * DELETE
-    + PRODUCTOS
+    + PRODUCTOS: EUGENIO
         * ID
         * NOMBRE
         * STOCK
@@ -18,7 +18,7 @@
         > MUTATIONS
             * CREATE
             * DELETE
-    + SERVICIOS
+    + SERVICIOS: EUGENIO
         * ID
         * NOMBRE
         * PRECIO
@@ -27,7 +27,7 @@
         > MUTATIONS
             * CREATE
             * DELETE
-    + USUARIOS
+    + USUARIOS: ISKANDER
         * USUARIO
         * PASSWORD
         > QUERIES
@@ -35,7 +35,7 @@
         > MUTATIONS
             * CREATE
             * DELETE
-    + CONSUMERS
+    + CONSUMERS: ISKANDER
         * ID
         * URL
         > QUERIES
