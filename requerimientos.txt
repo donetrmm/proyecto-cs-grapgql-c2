@@ -51,31 +51,31 @@
 > ESTRUCTURA
     - index.ts
     - src
-    - configs
-        - database.ts // Configuración y conexión a MongoDB
-        - graphql.ts // Configuración de GraphQL
-        - webhook.ts // Configuración del servidor webhook (opcional si es necesario configurar algún aspecto específico para el envío de eventos)
-    - controllers
-        - graphqlController.ts // Controlador GraphQL
-    - middlewares
-        - authentication.ts // Middleware de autenticación (si es necesario)
-    - models //Modelos para MongoDB
-        - product.ts 
-        - promotion.ts 
-        - service.ts 
-        - user.ts 
-        - consumer.ts 
-    - resolvers
-        - productResolver.ts 
-        - promotionResolver.ts
-        - serviceResolver.ts
-        - userResolver.ts
-        - consumerResolver.ts
-    - schema
-        - productSchema.graphql
-        - promotionSchema.graphql
-        - serviceSchema.graphql
-        - userSchema.graphql
-        - consumerSchema.graphql
-    - webhook
-        - webhookSender.ts
+        - configs
+            - database.ts // Configuración y conexión a MongoDB
+            - graphql.ts // Configuración de GraphQL
+            - webhook.ts // Configuración del servidor webhook (opcional si es necesario configurar algún aspecto específico para el envío de eventos)
+        - controllers
+            - graphqlController.ts // Controlador GraphQL
+        - middlewares
+            - authentication.ts // Middleware de autenticación (si es necesario)
+        - models //Modelos para MongoDB
+            - product.ts 
+            - promotion.ts 
+            - service.ts 
+            - user.ts 
+            - consumer.ts 
+        - resolvers
+            - productResolver.ts 
+            - promotionResolver.ts
+            - serviceResolver.ts
+            - userResolver.ts
+            - consumerResolver.ts
+        - schema
+            - productSchema.graphql
+            - promotionSchema.graphql
+            - serviceSchema.graphql
+            - userSchema.graphql
+            - consumerSchema.graphql
+        - webhook
+            - webhookSender.ts
